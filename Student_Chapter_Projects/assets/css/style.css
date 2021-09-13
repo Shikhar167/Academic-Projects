@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+  /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+  font-family: "Calibri";
+  font-size: 12px;
+  line-height: 30px;
+  color: #252626;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact button[type="submit"] {
+  /*font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;*/
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 30% 0 5%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="password"],
+#contact select,
+#contact textarea {
+  width: 100%;
+  border: 1px solid #0c5472;
+  background: rgba(12,84,114,.1);
+  margin: 0 0 7px;
+  padding: 7px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="phone"]:hover,
+#contact input[type="password"]:hover,
+#contact textarea:hover {
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+  margin: 0 0 6px;
+  padding: 6px;
+}
+
+#contact textarea {
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #45D959;
+}
+
+.navbarbutton{
+  margin-top: 7px;
+}
+
+.div1{
+  /*font-family: 'Kodchasan', sans-serif;*/
+  background-color:#0c5472;
+  text-align: center;
+  color:white;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  z-index: +1;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+.div1 h1{
+  font-size: 8em;
+}
+
+.div2 {
+  padding: 3% 0 3%;
+}
+
+.ele1{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.subhead2{
+  text-align: right;
+  vertical-align: top;
+  color: white;
+  font-weight: 800;
+}
+
+.subhead1{
+  text-align: left;
+  vertical-align: top;
+  font-weight: 800;
+}
+
+#contactUs{
+  text-align: right;
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #0c5472;
+}
+
+.formInput{
+  width: 90%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn-light{
+  width: 95%;
+  margin: 1.25%;
+  padding: 1.25%;
+  font-size: 1.5em;
+}
+
+.mentors{
+  border-left: 3px solid #eeeff1;
+  border-right: 3px solid #eeeff1;
+}
+
+#logo{
+  width: 75px;
+}
+
+a.navbar-brand.active{
+  padding: 5px;
+}
+
+.namaste{
+  text-align: center;
+  padding-bottom:10%;
+  padding-top: 10%;
+  background-color:#0c5472;
+  color:#f2f9fe;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.removeMember{
+  width: 5%;
+  margin-left: 20%
+}
+
+.team{
+  padding-left: 15%;
+  font-weight: 700;
+  font-size: 2em;
+}
+.team h3{
+  text-align: center;
+}
+
+.addMember{
+  width: 5%;
+  margin-left: 25%
+}
+
+#requirements h4{
+  padding-left: 15%;
+  font-weight: 700;
+}
+#requirements input{
+  width: 48.5%;
+}
+
+.updates{
+  padding:5%;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0c5472;
+}
+
+.modal-footer{
+  text-align:center;
+}
+
+.signUp{
+  margin:3%;
+  width: 75%;
+}
+
+#login{
+  text-align: center;
+}
+#login .btn-success{
+  width:75%;
+  margin:3%; 
+}
+
+.navbar-fixed-top{
+  background-color: rgba(12,84,114,.8);
+  border-color: #0c5472;
+  z-index: 997;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+
+.btn-warning{
+  margin-right: 10px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+#about>p {
+  font-size: 1.5em;
+}
+
+#contactUs p{
+  font-size: 1.5em;
+}
+#contactUs{
+  padding-top: 3%;
+}
+.requirements {
+padding-left: 5%;
+}
+
+.team{
+   margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline{
+  padding: 5%;
+}
+.timeline p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.big #contact{
+  margin-top: 10%;
+  border-radius: 10px;
+}
+.big h1{
+  font-size: 5em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container > div {
+  text-align: center;
+}
+
+@media (max-width:600px ) {
+  .div1 h1 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width:600px ) {
+  .hideit {
+    display: none;
+  }
+}
+
+.follow{
+  text-align:right;
+}
+
+.follow img , .copyright{
+  padding:1%;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0px; left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+table {
+  width: 100%;
+  min-height: 35px;
+  text-align: center;
+  padding: 2% 0 2%;
+}
+
+.dark p{
+  color: white;
+}
+
+td {
+  border: 1px solid grey;
+}
