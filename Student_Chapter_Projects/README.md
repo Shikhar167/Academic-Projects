@@ -7,3 +7,5 @@ E-Cell VIT created a platform that facilitates startups in the different phases 
 3. Prototyping
 4. Business Modelling
 5. Incubation
+
+Please refer Ideation_Platform.pdf for complete documentation
